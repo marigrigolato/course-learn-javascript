@@ -9,21 +9,21 @@
 
 // reduce example: sum
 const numbers = [1, 2, 3, 4, 5];
-const sum = numbers.reduce((acc, cur) => {
-  return acc + cur; 
-}, 0);
+// const sum = numbers.reduce((acc, cur) => {
+//   return acc + cur; 
+// }, 0);
 
-console.log(sum); // 15
+// console.log(sum); // 15
 
 // passing 0 as initialValue is the same as declaring let sum = 0 when using .forEach() to calculate the sum.
-// let grades = [10, 5, 15, 20];
+let grades = [10, 5, 15, 20];
 
-// let sum = grades.reduce((total, current) => {
-//     console.log(`Total is ${total}`);
-//     console.log(`Current is ${current}`);
-//     console.log("---");
-//     return total + current;
-// }, 0);
+let sum = grades.reduce((total, current) => {
+    console.log(`Total is ${total}`);
+    console.log(`Current is ${current}`);
+    console.log("---");
+    return total + current;
+}, 0);
 
 // console.log(`Sum is ${sum}`);
 

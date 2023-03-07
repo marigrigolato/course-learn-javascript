@@ -8,4 +8,4 @@ const user = {
 
 const entries = Object.entries(user);
 
-console.log(entries);
+console.log(entries);  // [ [ 'id', 1 ], [ 'name', 'Sam Green' ], [ 'age', 20 ] ]
